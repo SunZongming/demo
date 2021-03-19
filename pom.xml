@@ -15,6 +15,8 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
+        <!--设置这个值为true,表示移动资源文件时会覆盖原有的文件-->
+        <maven.resources.overwrite>true</maven.resources.overwrite>
     </properties>
     <dependencies>
         <dependency>
