@@ -56,7 +56,7 @@ public class Controller {
             default:
                 break;
         }
-        map.put("filename", filename);
+        map.put("name", filename);
         map.put("description", description);
         map.put("answer", answer);
         return map;
