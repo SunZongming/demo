@@ -1,6 +1,8 @@
 # demo
 
-用 `chrome` 调试页面时，发现 `audio` 控件有时不能正常播放音频，控制台报错 `Uncaught (in promise) DOMException`；
+![image](https://user-images.githubusercontent.com/7611258/111750143-d0577d80-88cd-11eb-9480-ae838cac9bf4.png)
+
+用 `chrome` 调试页面时，发现 `audio` 控件有时不能正常播放音频，控制台报错 `Uncaught (in promise) DOMException`；
 
 解决方法如下：
 
@@ -10,6 +12,9 @@
 
 之前视频无法自动播放是加了`muted`（静音播放）属性解决的，对于需要有声音的视频及音频来说，这个方法更适用吧
 
+
 ————————————————
+
 版权声明：本文为CSDN博主「Mariosss」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+
 原文链接：[https://blog.csdn.net/Mariosss/article/details/87861167](https://blog.csdn.net/Mariosss/article/details/87861167)
