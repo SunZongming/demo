@@ -35,7 +35,7 @@ public class Controller {
                 secondNum = random.nextInt(9) + 1;
                 answer = firstNum + secondNum;
                 filename = "" + answer + 'm' + firstNum;
-                description = answer + " + " + firstNum + " = ";
+                description = answer + " - " + firstNum + " = ";
                 answer = secondNum;
                 break;
             case "3":
